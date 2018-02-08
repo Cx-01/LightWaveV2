@@ -164,11 +164,8 @@ footer{
 	background-position: top center;
 	}
 
-	#trailer iframe{
-	width: 100%;
-	min-height: 50px;
-	top: 0;
-  	left: 0;
+	#trailer{
+		 padding-bottom:46.25%;
 	}
 
 
