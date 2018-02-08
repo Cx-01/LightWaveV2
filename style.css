@@ -132,7 +132,7 @@ footer{
 	border-top: #04529e 3px solid;
 }
 
-@media(max-width: 768px){
+@media(max-width: 900px){
 
 	body{
 		font-size: 12px;
