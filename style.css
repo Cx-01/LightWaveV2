@@ -21,13 +21,31 @@ body{
 ul{
 	margin: 0;
 	padding: 0;
+
 }
+
+
+
+/*li{
+	background-image: url(img/bouton01.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: block;
+	float: left;
+	width: 250px;
+	height: 80px;
+	margin-top: -30px;
+	border: 1px green solid;
+}
+*/
 
 header{
 	background: #070114;
-	padding-top: 15px;
+	padding-top: 5px;
 	padding-bottom: 5px;
 	min-height: 50px;
+	position: sticky;
+	z-index: 1;
 	top: 0;
   	left: 0;
 	width: 100%;
@@ -42,7 +60,6 @@ header #logo{
 	margin: 0;
 	width: 245px;
 	height: 100px;
-	border: 1px white solid;
 	float: left;
 }
 
@@ -78,7 +95,7 @@ header li{
 	padding: 0 20px 0 20px;
 }
 
-#cover{
+/*#cover{
 	min-height: 400px;
 	max-width: 80%;
 	margin: auto;
@@ -87,14 +104,47 @@ header li{
 	background-size: contain;
 	background-position: top center;
 	border: red 4px solid;
-}
+}*/
 
 
 #lightwave{
 	width: 80%;
+	min-height: 350px;
 	margin: auto;
 	overflow: hidden;
-	border: green 4px solid;
+	background: rgba(24, 0, 64, 0.75);
+	border: #03ffa2 2px solid;
+}
+
+#lightwave h3{
+	text-align: center;
+	color: #03ffa2;
+	font-size: 20px;
+}
+
+#lightwave h3:hover{
+	text-shadow:0 0 2.5px #6cffc9;
+}
+
+#lightwave p{
+	text-align: center;
+}
+
+#vaisseau img{
+	width: 15%;
+	float: left;
+	height: auto;
+	position: center;
+}
+
+#lien a{
+	background: url(img/badge-google.png);
+	background-size: 40%;
+	background-repeat: no-repeat;
+	width: 568px;
+	height: 169px;
+	float: left;
+	margin: 25px 0px 0px 20px;
 }
 
 #trailer{
@@ -112,6 +162,7 @@ header li{
     top:0;
     height:100%;
     width:100%;
+    overflow: hidden;
     position:absolute;
 
 }
@@ -142,17 +193,25 @@ footer{
 	header #logo, header nav, header nav li{
 		float: none;
 		text-align: center;
+		margin-top: -15px;
 		width: 100%;
 	}
 
 	header nav {
-		margin-top: 15px;
+		margin-top: 10px;
 
 	}
 
 	header{
-		padding-bottom: 15px;
-		margin-top: -10px;
+		
+	}
+
+	#lightwave{
+		float: none;
+	}
+
+	#lightwave h3{
+		font-size: 15px;
 	}
 
 	#cover{
@@ -164,6 +223,7 @@ footer{
 	
 	background-position: top center;
 	}
+
 
 	#trailer{
 		 padding-bottom:46.25%;
