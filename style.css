@@ -95,7 +95,7 @@ header li{
 	padding: 0 20px 0 20px;
 }
 
-/*#cover{
+#cover{
 	min-height: 400px;
 	max-width: 80%;
 	margin: auto;
@@ -104,7 +104,7 @@ header li{
 	background-size: contain;
 	background-position: top center;
 	border: red 4px solid;
-}*/
+}
 
 
 #lightwave{
@@ -183,7 +183,7 @@ footer{
 	border-top: #04529e 3px solid;
 }
 
-@media(max-width: 900px){
+@media(max-width: 650px){
 
 	body{
 		font-size: 12px;
@@ -198,35 +198,46 @@ footer{
 	}
 
 	header nav {
-		margin-top: 10px;
-
+	margin-top: -5px;
+	display: none;
 	}
 
-	header{
-		
+
+	#cover{
+	min-height: 150px;
+	max-width: 100%;
+	background-size: 100%;
+	background-position: top center;
 	}
+
 
 	#lightwave{
-		float: none;
+	min-height: 50px;
+	width: 100%;
 	}
 
 	#lightwave h3{
 		font-size: 15px;
 	}
 
-	#cover{
-	min-height: 200px;
-	max-width: 80%;
-	margin: auto;
-	
-	background-size: 100%;
-	
-	background-position: top center;
+	#vaisseau img{
+	display: none;
+	}
+
+	#lien a{
+	background-size: 30%;
+	background-position: center;
+
 	}
 
 
 	#trailer{
-		 padding-bottom:46.25%;
+	padding-bottom:66.25%;
+	width: 100%;
+	}
+
+	#images{
+	width: 100%;
 	}
 
 
