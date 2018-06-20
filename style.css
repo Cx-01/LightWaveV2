@@ -21,6 +21,7 @@ body{
 ul{
 	margin: 0;
 	padding: 0;
+	text-align: center;
 
 }
 
@@ -63,6 +64,8 @@ header #logo{
 	float: left;
 }
 
+
+
 header #logo h1{
 
 }
@@ -99,7 +102,7 @@ header li{
 	min-height: 400px;
 	max-width: 80%;
 	margin: auto;
-	background: url(img/crystal.png) no-repeat;
+	background: url(img/cover.jpg) no-repeat;
 	background-size: 100%;
 	background-size: contain;
 	background-position: top center;
@@ -233,6 +236,7 @@ footer{
 
 	#trailer{
 	padding-bottom:66.25%;
+	
 	width: 100%;
 	}
 
