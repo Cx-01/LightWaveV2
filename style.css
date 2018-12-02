@@ -73,7 +73,7 @@ header #logo h1{
 header nav{
 	float: left;
 	margin-top: 40px;
-	
+	padding-left: 250px;
 }
 
 header .highlight, header .current a{
@@ -99,6 +99,7 @@ header li{
 }
 
 #cover{
+
 	min-height: 400px;
 	max-width: 80%;
 	margin: auto;
@@ -178,12 +179,25 @@ header li{
 }
 
 
-
 footer{
-	padding: 20px;
-	text-align: center;
 	background: #070114;
 	border-top: #04529e 3px solid;
+}
+
+footer p{
+margin-top: 5px;
+	text-align: center;
+	
+}
+
+footer a{
+padding-left: 850px;
+}
+
+footer a img {
+height: 84px;
+width:129px;
+
 }
 
 @media(max-width: 650px){
