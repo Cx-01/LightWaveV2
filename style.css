@@ -50,7 +50,7 @@ header{
 	top: 0;
   	left: 0;
 	width: 100%;
-	border-bottom: #04529e 3px solid;
+	/*border-bottom: #04529e 3px solid;*/
 }
 
 header #logo{
@@ -107,7 +107,7 @@ header li{
 	background-size: 100%;
 	background-size: contain;
 	background-position: top center;
-	border: red 4px solid;
+	/*border: red 4px solid;*/
 }
 
 
@@ -117,7 +117,7 @@ header li{
 	margin: auto;
 	overflow: hidden;
 	background: rgba(24, 0, 64, 0.75);
-	border: #03ffa2 2px solid;
+	/*border: #03ffa2 2px solid;*/
 }
 
 #lightwave h3{
@@ -158,7 +158,7 @@ header li{
     padding-bottom:36.25%;
     position:relative;
     height:0;
-	border: blue 4px solid;
+	/*border: blue 4px solid;*/
 }
 
 #trailer iframe{
@@ -175,13 +175,13 @@ header li{
 	width:80%;
 	margin: auto;
 	overflow: hidden;
-	border: #fff 1px solid;
+	/*border: #fff 1px solid;*/
 }
 
 
 footer{
 	background: #070114;
-	border-top: #04529e 3px solid;
+	/*border-top: #04529e 3px solid;*/
 }
 
 footer p{
@@ -203,8 +203,10 @@ width:129px;
 @media(max-width: 650px){
 
 	body{
+		width: 500px
 		font-size: 12px;
 		background: #8c41ec;
+		background-size: contain;
 	}
 
 	header #logo, header nav, header nav li{
